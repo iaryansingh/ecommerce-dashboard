@@ -1,0 +1,22 @@
+.item{
+    width: 250px;
+    background-color: rgb(245, 245, 245);
+    height: 400px;
+    margin: 1rem;
+    box-shadow: rgba(0,0,0,0.20) 1.95px 1.95px 2.6px;
+    border-radius: 20px;
+}
+
+.item-img{
+    width: 80%;
+    display: flex;
+    padding: 0 2rem 0 2rem;
+}
+
+.item-title{
+    padding: 0 1rem 0 1rem;
+}
+
+.price{
+    padding-top: 1rem;
+}
