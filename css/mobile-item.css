@@ -1,0 +1,9 @@
+@media(max-width: 800px){
+
+    .forward-btn{
+        position: sticky;
+        bottom: 1rem;
+        height: 1rem;
+    }
+
+}

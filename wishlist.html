@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Wishlist</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/mobile-wishlist.css">
+    <link rel="stylesheet" href="css/wishlist.css">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+</head>
+<body>
+
+
+    <header class="">
+
+        <div class="sidebar sidebarGo">
+                <ul>
+                    <li> <a href="/">Kids</a> </li>
+                    <li> <a href="/">Men</a> </li>
+                    <li> <a href="/">Women</a> 
+                    <li> <a href="/">Deals</a> </li>
+                    <li> <a href="/">Orders</a> </li>
+                    <li> <a href="/">Account</a> </li>
+                    <li> <a href="/">Contact Us</a> </li>
+                </ul>
+        </div>
+        
+        <nav class="space-between navbar">
+            <div class="hamburger">
+                <img class="ham" src="icons/ham.svg"  alt="">
+                <img class="cross" src="icons/close.png"  alt="">
+            </div>
+            <div class="left flex items-center  uppercase semibold">
+                <div class="logo font1"> <a href="index.html" class="link">Ecommerce Dashboard</a> </div>
+                <ul class="flex mv-1 ">
+                    <li> <a href="#" class="link">Categories</a> </li>
+                    <li><a href="#" class="link">Brands</a></li>
+                    <li><a href="#" class="link">Deals</a></li>
+                    <!-- <li><a href="#" class="link">Orders</a></li> -->
+                </ul>
+            </div>
+
+            <div class="right flex items-center semibold">
+
+                <input type="text" class="search" placeholder="Search for products, brand and more">
+
+                <div class=" column items-center mx-2">
+                    <label for="searchicon">
+                    <img src="icons/search.svg" class="icon" alt=""> </label>
+                    <a href="#" class="link searchicon"></a> 
+                </div>
+
+                <div class="rightbox ">
+                    
+                    <!-- <div class=" column items-center mx-2">
+                        <label for="user">
+                        <img src="icons/user.svg" class="icon" alt=""> </label>
+                        <a href="#" class="link user">Profile</a> 
+                    </div> -->
+
+                    <div class=" column  mx-2">
+                        <a href="wishlist.html" class="link heart  ">
+                        <img src="icons/wishlist.png" class="icon" alt=""> <div class="heart-text">Wishlist</div>
+                       </a>
+                    </div>
+
+                    <div class=" column items-center mx-2">
+                        <a href="#" class="link cart">
+                        <img src="icons/bag.svg" class="icon" alt=""> <div class="cart-text">Bag</div></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+   
+    <div class="container">
+        <h3 class="title"> My Wishlist</h3>
+        <div class="products-container">
+            <div class="link">
+                <img src="icons/red-heart.svg" class="red-heart" alt="">
+            <div class="product" data-name="p-1">
+                
+                <img src="images/1.png" alt="">
+                <h3>strawberries</h3>
+                <div class="price">₹200</div>
+            </div>
+        </div>
+            
+            <div class="product" data-name="p-2">
+                <img src="images/2.png" alt="">
+                <h3>onions</h3>
+                <div class="price">₹200</div>
+            </div>
+            <div class="product" data-name="p-3">
+                <img src="images/3.png" alt="">
+                <h3>tomatoes</h3>
+                <div class="price">₹200</div>
+            </div>
+            <div class="product" data-name="p-4">
+                <img src="images/4.png" alt="">
+                <h3>brinjal</h3>
+                <div class="price">₹200</div>
+            </div>
+            <div class="product" data-name="p-5">
+                <img src="images/5.png" alt="">
+                <h3>broccoli</h3>
+                <div class="price">₹200</div>
+            </div>
+            <div class="product" data-name="p-6">
+                <img src="images/6.png" alt="">
+                <h3>potatoes</h3>
+                <div class="price">₹200</div>
+            </div>
+
+            <div class="product" data-name="p-7">
+                <img src="images/1.png" alt="">
+                <h3>strawberries</h3>
+                <div class="price">₹200</div>
+            </div>
+
+            <div class="product" data-name="p-8">
+                <img src="images/2.png" alt="">
+                <h3>onions</h3>
+                <div class="price">₹200</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="products-preview ">
+        <div class="preview " data-target="p-1">
+            <img src="images/1.png" alt="">
+            <i class="fas fa-times"></i>
+            <h3> Qrganic Strawberries</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(250)</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, doloribus magnam!</p>
+                <div class="price">₹200</div>
+                <div class="buttons">
+                    <a href="#" class="buy"> buy now</a>
+                    <a href="#" class="cart"> Add to cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="preview " data-target="p-2">
+            <img src="images/2.png" alt="">
+            <i class="fas fa-times"></i>
+            <h3> Qrganic onion</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(250)</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, doloribus magnam!</p>
+                <div class="price">₹200</div>
+                <div class="buttons">
+                    <a href="#" class="buy"> buy now</a>
+                    <a href="#" class="cart"> Add to cart</a>
+                </div>
+            </div>
+        </div>
+       
+        <div class="preview" data-target="p-3">
+            <img src="images/3.png" alt="">
+            <i class="fas fa-times"></i>
+            <h3> Qrganic Tomatoes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(250)</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, doloribus magnam!</p>
+                <div class="price">₹200</div>
+                <div class="buttons">
+                    <a href="#" class="buy"> buy now</a>
+                    <a href="#" class="cart"> Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="preview" data-target="p-4">
+            <img src="images/4.png" alt="">
+            <i class="fas fa-times"></i>
+            <h3> Qrganic Brinjal</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(250)</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, doloribus magnam!</p>
+                <div class="price">₹200</div>
+                <div class="buttons">
+                    <a href="#" class="buy"> buy now</a>
+                    <a href="#" class="cart"> Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="preview" data-target="p-5">
+            <img src="images/5.png" alt="">
+            <i class="fas fa-times"></i>
+            <h3> Qrganic Broccoli</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(250)</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, doloribus magnam!</p>
+                <div class="price">₹200</div>
+                <div class="buttons">
+                    <a href="#" class="buy"> buy now</a>
+                    <a href="#" class="cart"> Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="preview" data-target="p-6">
+            <img src="images/6.png" alt="">
+            <i class="fas fa-times"></i>
+            <h3> Qrganic Potatoes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(250)</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, doloribus magnam!</p>
+                <div class="price">₹200</div>
+                <div class="buttons">
+                    <a href="#" class="buy"> buy now</a>
+                    <a href="#" class="cart"> Add to cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="preview " data-target="p-7">
+            <img src="images/1.png" alt="">
+            <i class="fas fa-times"></i>
+            <h3> Qrganic Strawberries</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(250)</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, doloribus magnam!</p>
+                <div class="price">₹200</div>
+                <div class="buttons">
+                    <a href="#" class="buy"> buy now</a>
+                    <a href="#" class="cart"> Add to cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="preview " data-target="p-8">
+            <img src="images/1.png" alt="">
+            <i class="fas fa-times"></i>
+            <h3> Qrganic Strawberries</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(250)</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, doloribus magnam!</p>
+                <div class="price">₹200</div>
+                <div class="buttons">
+                    <a href="#" class="buy"> buy now</a>
+                    <a href="#" class="cart"> Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="">
+        Copyright &copy; Ecommerce Dashboard | All rights reserved
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Oswald:wght@500&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Roboto:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+
+:root{
+    --main-bg-color:  rgb(110, 207, 91);
+    --font1: 'Oswald', sans-serif;
+    --font2: 'Roboto', sans-serif;
+}
+
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+
+/* font size 1 */
+.fontsize-1{
+    font-size: 0.7rem;
+}
+
+.font-size-2{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+} 
+
+.justify-center{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.semibold{
+    font-weight: bolder;
+}
+.bold{
+    font-weight: bold;
+}
+
+.space{
+    padding: 0 5px 0 0;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.mx-2{
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+
+.my-2{
+    margin: 0.8rem 0;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.icon{
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.cut{
+    text-decoration: line-through;
+}
+
+/* star ratings */
+.fa-star{
+    color: rgb(219, 214, 214);
+}
+
+.checked {
+    color: orange;
+  }
+
+  .size-btn{
+
+    border: 2px solid grey;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+
+  .size-btn:hover{
+    background-color: rgb(243, 237, 237);
+    color: black;
+    transition:0.5s;
+ }
+  
+
+ .btn1{
+    background-color: tomato;
+    border: tomato;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px 20px 0 0;
+    padding: 13px 26px;
+    
+  }
+
+ .btn2{
+    border: tomato;
+    color: black;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px 0;
+    background-color: white;
+    padding: 11px 24px;
+  }
+
+  .red-heart{
+      position: absolute;
+      width: 1.8rem;
+      margin: 1rem 0 0 1rem;
+      /* filter: brightness(120%) */
+      opacity: .5;
+     
+  }
+  .products-container{
+      opacity: 1;
+  }

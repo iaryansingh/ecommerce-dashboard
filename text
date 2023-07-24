@@ -1,0 +1,6 @@
+git remote add origin https://github.com/iaryansingh/web-elements.git
+git branch -M main
+git push -u origin main
+
+
+pwd:  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
